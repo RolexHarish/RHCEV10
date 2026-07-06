@@ -1,6 +1,6 @@
 ---
 - name: print hello world
-  hosts: servera.lab.example.com
+  hosts: all
   tasks:
   - name: hello 
     ansible.builtin.debug:
